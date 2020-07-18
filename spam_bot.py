@@ -16,7 +16,7 @@ def word():
     return word
 
 def quantity():
-    """первая проверка"""
+    """первая проверка"""q
     while True:
         try:
             quantity = int(input("Сколько раз вы хотите вызвать слово?: "))
