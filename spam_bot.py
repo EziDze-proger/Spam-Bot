@@ -30,7 +30,7 @@ def time_word():
     """первая проверка"""
     while True:
         try:
-            time_word = int(input("Через сколько вы хотите активировать спам бота?: "))
+            time_word = int(input("Через сколько секунд вы хотите активировать спам бота?: "))
             break
         except (ValueError):
             print("укажите число")
